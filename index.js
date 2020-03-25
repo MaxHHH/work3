@@ -16,6 +16,7 @@ $(function() {
         className: "htCenter htMiddle",
         colHeaders: true,
         colHeaders: ['语言名称','排名','升或降','变化幅度'],
+        licenseKey: 'non-commercial-and-evaluation'
     });
 
     var myChart=echarts.init(document.getElementById('table'));
